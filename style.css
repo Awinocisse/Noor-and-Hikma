@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+body{
+  background-color: #FFFFFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23E7A9B1'/%3E%3Cstop offset='1' stop-color='%23FFFFFF'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FEFEFF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FEFEFF' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;}
+hr{ 
+   border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #E7A9B1, transparent);
+  border-radius: 20px;
+  margin: 2rem auto;
+  width: 60%;
+}
+.hr-deco {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.hr-deco span {
+  color: #E7A9B1;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+}
+header{
+    padding-top: 120px;
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.logo img {
+  width: 40px; /* ajuste selon la taille que tu veux */
+  height: 40px;
+  object-fit: cover;
+}
+
+.logo h1 {
+  color: #E7A9B1;
+  font-size: 2rem;
+}
+
+}
+nav {
+    margin: auto;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    position: fixed;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2rem;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; /* centre les liens horizontalement */
+  gap: 20px; /* espace entre les liens */
+  padding: 1rem;
+}
+
+.buttons a {
+     text-decoration: none;
+  background-color: #FCEEF0;
+  color: #E7A9B1;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+
+}
+
+.buttons a:hover {
+ outline-style: double;
+ outline-color: #E7A9B1;
+  color: #E7A9B1;
+}
+
+.into {
+    max-width: 800px;
+    margin:0 auto;
+    padding: 4rem 2rem 2rem;
+    text-align: center;
+    color: #333 ;
+}
+
+.intro h1 {
+    color: #E7A9B1;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+
+}
+
+.article h2 {
+   text-align: center;
+   color: #E7A9B1;
+   
+
+}
+
+.articles {
+  display: flex;
+  justify-content: center; /* centre les cartes horizontalement */
+  flex-wrap: wrap;         /* permet de passer à la ligne si trop large */
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.articles a {
+  width: 200px; /* ajuste la taille globale de la "carte article" */
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.articles a:hover {
+  transform: translateY(-5px);
+}
+
+.articles img {
+  width: 100%;         /* image prend toute la largeur de la carte */
+  height: 130px;       /* hauteur fixe */
+  object-fit: cover;   /* garde une belle coupe centrée */
+  border-bottom: 1px solid #f1d4d8;
+}
