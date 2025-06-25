@@ -1,14 +1,15 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Awinocisse/Noor-and-Hikma
   branch: main
 
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
+media_folder: "images"
+public_folder: "/images"
 
 collections:
   - name: "articles"
     label: "Articles"
-    folder: "articles"
+    folder: "posts"
     create: true
     slug: "{{slug}}"
     fields:
