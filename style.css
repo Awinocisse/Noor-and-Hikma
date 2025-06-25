@@ -147,3 +147,52 @@ nav {
   object-fit: cover;   /* garde une belle coupe centrée */
   border-bottom: 1px solid #f1d4d8;
 }
+
+#scrollup {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 100;
+  font-size: 1.5rem;
+  background-color: #E7A9B1;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  
+
+
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    width: 95%;
+    padding: 0.5rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buttons a {
+    display: block;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .articles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .articles a {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
