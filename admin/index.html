@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Contenu admin</title>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  </head>
-  <body>
-    <script>
-      CMS.init()
-    </script>
-  </body>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin - NOOR & HIKMA</title>
+  <!-- Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.15.72/dist/netlify-cms.js"></script>
+  <script>
+    // On active l'initialisation manuelle pour éviter l'erreur CMS is not defined
+    window.CMS_MANUAL_INIT = true;
+  </script>
+</head>
+<body>
+  <div id="nc-root"></div>
+
+  <script>
+    // Initialise Netlify CMS après le chargement du script
+    CMS.init();
+  </script>
+</body>
 </html>
+

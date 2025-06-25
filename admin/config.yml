@@ -2,10 +2,9 @@ backend:
   name: github
   repo: Awinocisse/Noor-and-Hikma
   branch: main
-  auth_type: "implicit"       # Ou "redirect" selon ton choix, "implicit" plus simple
+  auth_type: implicit
   client_id: "Ov23liw4F2y7StoMxtzk"
-  app_id: "Ov23liw4F2y7StoMxtzk" # Parfois utilisé aussi
-
+  app_id: "Ov23liw4F2y7StoMxtzk"
 
 media_folder: "images"
 public_folder: "/images"
