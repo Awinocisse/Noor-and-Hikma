@@ -5,7 +5,7 @@ backend:
   auth_type: implicit
   base_url: https://noorandhikma.vercel.app
   site_domain: noorandhikma.vercel.app
-  client_id: Ov23liw4F2y7StoMxtzk
+  client_id: Ov23liUfUZAfK8Gn0PtH
 
 media_folder: "images"
 public_folder: "/images"
