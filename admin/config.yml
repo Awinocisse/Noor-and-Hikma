@@ -3,7 +3,9 @@ backend:
   repo: Awinocisse/Noor-and-Hikma
   branch: main
   auth_type: implicit
-  client_id: "Ov23liw4F2y7StoMxtzk"
+  base_url: https://noorandhikma.vercel.app
+  site_domain: noorandhikma.vercel.app
+  client_id: Ov23liw4F2y7StoMxtzk
 
 media_folder: "images"
 public_folder: "/images"
